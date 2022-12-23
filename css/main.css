@@ -3,12 +3,15 @@ header {
   background-color: rgb(73, 64, 64);
 }
 
-
 .inner {
   background-color: aquamarine;
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: fixed;
+  justify-content: center;
 }
 
 .logo {
@@ -47,6 +50,8 @@ header {
 }
 
 
+
+
 .input {
   width: 200px;
   background-color: brown;
@@ -56,11 +61,14 @@ header {
   justify-content: space-evenly;
 }
 
+/* 메뉴 밑 상단 첫번째 영역 */
+
 .no1_image {
   background-image: url(/images/gooddad\ main.jpg);
   max-width: 1200px;
   margin: 0 auto;
-  height: 600px;
+  height: 550px;
+  background-size: cover;
 }
 
 .main_text {
@@ -68,19 +76,180 @@ header {
   background-color: orange;
   width: 580px;
   font-size: 56px;
+  color: aliceblue;
+  font-weight: bold;
   position: relative;
   top: 99px;
   left: 188px
 }
 
-.input_text {
+
+.input_box {
   width: 340px;
   height: 48px;
+  background-color: blue;
+  display: flex;
+  /* margin-top: 150px;
+  margin-left: 300px; */
+  position: relative;
+  top: 120px;
+  left: 300px;
 }
 
+.text_box {
+  font-size: 20px;
+  width: 340px;
+}
+
+/* 슬라이드 영역 */
+.image-slide .swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.image-slide .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-slide .swiper {
+  height: 30px;
+}
+
+
+/* 
 .slide {
   background: rgb(243, 138, 138);
   max-width: 1200px;
   margin: 0 auto;
   height: 500px;
+} */
+
+
+/* 메인 중간 '아빠와 함께 신나는 시간 영역 */
+.mline {
+  max-width: 1200px;
+  background-color: blue;
+  margin: 0 auto;
 }
+
+
+.mline_image_01 {
+  width: 350px;
+  height: 350px;
+  background-image: url(/images/gooddad\ main2.jpg);
+  background-size: cover;
+}
+
+.mline_image_02 {
+  width: 350px;
+  height: 350px;
+  background-image: url(/images/dadbaby.jpg);
+  background-size: cover;
+}
+
+.mline_image_03 {
+  width: 350px;
+  height: 350px;
+  background-image: url(/images/travel3.jpg);
+  background-size: cover;
+}
+
+.mline .flex {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mline .flex>ul {
+  width: 1200px;
+  display: flex;
+  background-color: blueviolet;
+  list-style: none;
+  font-size: 38px;
+  justify-content: space-around;
+  padding: 0;
+}
+
+/* 비행기, 기차여행 영역 */
+.md_line {
+  width: 1200px;
+  height: 700px;
+  background-color: aqua;
+  margin: 0 auto;
+}
+
+.md_lineimage_01 {
+  width: 450px;
+  height: 250px;
+  background-color: brown;
+  margin: 20px;
+}
+
+.md_lineimage_02 {
+  width: 450px;
+  height: 250px;
+  background-color: blue;
+  margin: 20px;
+}
+
+.text1 {
+  font-size: 15px;
+  width: 450px;
+  height: 250px;
+  background-color: aliceblue;
+  margin: 22px;
+  font-weight: bold;
+
+}
+
+.text2 {
+  font-size: 15px;
+  width: 450px;
+  height: 250px;
+  background-color: blueviolet;
+  margin: 20px;
+  font-weight: bold;
+
+}
+
+.down_line {
+  width: 1200px;
+  height: 500px;
+  background-color: chartreuse;
+  margin: 0 auto;
+}
+
+.md_flex {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.md_button2 {
+  display: flex;
+  background-color: chartreuse;
+  justify-content: space-around;
+}
+
+.down_line {
+  display: flex;
+  width: 1200px;
+  height: 400px;
+  background-color: rgb(211, 6, 6);
+  justify-content: center;
+}
+
+.down_lineimage {
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  background-color: darkgray;
+}
+
+/* .down_line .button1 {
+  display: flex;
+  background-color: chocolate;
+  justify-content: space-around;
+} */

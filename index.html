@@ -6,7 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>좋은아빠</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js"></script>
 </head>
 
 <body>
@@ -41,23 +44,71 @@
     <section class="main_image">
       <div class="no1_image">
         <div class="main_text">When a child is born, a father is born</div>
-        <div class="input_text"></div><input type="input">
+        <div class="input_box">
+          <input class="text_box" type="text" value="Search Course...">
+        </div>
       </div>
       <div class="search"></div>
     </section>
     <!-- 메인이미지 하단에 슬라이드 -->
-    <section class="slide">
+    <!-- <section class="slide">
       <div class="slide_1">슬라이드1</div>
       <div class="slide_2">슬라이드2</div>
       <div class="slide_3">슬라이드3</div>
-    </section>
+    </section> -->
+
+    <!-- 슬라이드(선생님)복사 -->
+
+    <!-- 슬라이드 이미지 -->
+    <div class="image-slide">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://via.placeholder.com/1920x1080" alt="sample">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://via.placeholder.com/1920x1080" alt="sample">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://via.placeholder.com/1920x1080" alt="sample">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- 슬라이드 텍스트 -->
+    <div class="text-slide">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">크리스마스 & 연말연시 매장 영업시간 변경 안내</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">[당첨자 발표] 커피 영수증 이벤트</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">애플리케이션 버전 업데이트 안내</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">[당첨자 발표] 전자영수증 이벤트</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- 이미지 3개 만들기(클릭가능하게) -->
     <section class="mline">
       <h1>아빠와 함께 하는 신나는 시간</h1>
-      <div class="mline_image_01">이미지1</div>
-      <div class="mline_image_02">이미지2</div>
-      <div class="mline_image_03">이미지3</div>
-      <div class="text">
+      <div class="flex">
+        <div class="mline_image_01">이미지1</div>
+        <div class="mline_image_02">이미지2</div>
+        <div class="mline_image_03">이미지3</div>
+      </div>
+      <div class="flex">
         <ul>
           <li>아빠와 공부</li>
           <li>아빠와 놀이</li>
@@ -67,46 +118,51 @@
     </section>
     <!-- 비행기, 기차여행 자세히보기 클릭 URL이동하게 -->
     <section class="md_line">
-      <div class="md_lineimage_01">이미지1</div>
-      <div class="md_lineimage_02">이미지2</div>
-      <div class="text1">
-        <h1>비행기타고 아이들과 함께 떠나기 좋은</h1>
+      <div class="md_flex">
+        <div class="md_lineimage_01">이미지1</div>
+        <div class="text1">
+          <h1>비행기타고 아이들과 함께 떠나기 좋은</h1>
+          <P>아이와 함께 가기 좋은 해외 여행지 베스트 10
+            비행기를 타고~ 꿈만 같은 해외 여행을 떠나세요.
+            하늘을 날며 아이와 함께 부푼 기대와 함께 소중한 추억을 만드세요.</P>
+          <div class="md_button2">
+            <input type="button" value="자세히보기">
+          </div>
+        </div>
       </div>
-      <div class="text2">
-        <p>아이와 함께 가기 좋은 해외 여행지 베스트 10
-          비행기를 타고~ 꿈만 같은 해외 여행을 떠나세요.
-          하늘을 날며 아이와 함께 부푼 기대와 함께 소중한 추억을 만드세요.</p>
+      <div class="md_line">
+        <div class="md_flex">
+          <div class="md_lineimage_02">이미지2</div>
+          <div class="text2">
+            <h1>아이들이 좋아하는 기차여행! 베스트 여행지!</h1>
+            <p>아이와 대화를 나누며 함께 기차 여행을~
+              즐겁고 이색 현장 체험 및 여행을 통해 아이와 소중한 추억을 만들어요.
+              우리 아이와 웃음 가득헌 여행 출~~~발</p>
+            <div class="md_button2">
+              <input type="button" value="자세히보기">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="md_button2">
-        <input type="button" value="자세히보기">
-      </div>
-      <div class="text1">
-        <h1>아이들이 좋아하는 기차여행! 베스트 여행지!</h1>
-      </div>
-      <div class="text2">
-        <p>아이와 대화를 나누며 함께 기차 여행을~
-          즐겁고 이색 현장 체험 및 여행을 통해 아이와 소중한 추억을 만들어요.
-          우리 아이와 웃음 가득헌 여행 출~~~발</p>
-      </div>
-      <div class="md_button2">
-        <input type="button" value="자세히보기">
-      </div>
+
+
     </section>
     <!-- 어떠한 놀이를 할까에 Let's go 클릭시 이동-->
     <section class="down_line">
       <div class="text1">
         <h1>아이와 어떠한 공부를 할까? 어떠한 놀이를 할까?</h1>
-      </div>
-      <div class="text2">
         <p>아빠와 함께하는 공부는 아이에게 좋은 영향을 주게되며, 아빠와 공감대 형성에 도움이 된다.
           아빠와 공부와 놀이는 우리 아이를 성장시키는 중용한 시간입니다.
           지금부터 어떠한 공부를 시작할까~ 어떠한 놀이를 할까에 대해서 더이상 걱정하지 마세요.</p>
+        <div class="button1"></div>
+        <input type="button" value="Let,s go">
       </div>
-      <div class="button1"></div>
-      <input type="button" value="Let,s go">
-      <div class="dw_lineimg">이미지</div>
+      <div class="down_lineimage"></div>
+
+
     </section>
   </main>
+
   <footer>
     <div class="footer">
       <ul>
