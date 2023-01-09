@@ -16,10 +16,13 @@
     const result = [];
 
     // 풀이4
-    
-    //입력받은 문제데이터를 하나씩 밑에 [] 추가하는것 부터 하고
-      //if문을 이용해서 풀이  
-
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] % 2 === 0) {
+        result.push('-');
+      }
+      result.push(str[i]);
+    }
+    console.log(result);
   </script>
 </head>
 <body>
