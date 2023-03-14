@@ -1,0 +1,222 @@
+header {
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.inner {
+  font-size: 15px;
+  max-width: 1680px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: green;
+  display: flex;
+}
+
+.inner>h1 {
+  width: 100px;
+  background-color: blue;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.inner>nav {
+  flex-grow: 1;
+  background-color: blueviolet;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.inner>nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inner>.login {
+  width: 100px;
+  background-color: burlywood;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.inner>.register {
+  width: 100px;
+  background-color: aqua;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+
+
+.mainbanner {
+  width: 1680px;
+  height: 600px;
+  background-color: brown;
+  background-image: url(./imges/gooddad\ main.jpg);
+
+  /* position: absolute;
+  bottom: 0;
+  right: -100px; */
+
+
+  /* background-position: center; */
+}
+
+.slider {
+  width: 100%;
+  background-color: aqua;
+}
+
+.text {
+  width: 100%;
+  background-color: rgb(14, 218, 75);
+}
+
+.menu {
+  width: 100%;
+  background-color: brown;
+}
+
+.menu__content {
+  height: 160px;
+  background-color: rgb(243, 239, 9);
+}
+
+.menuimge {
+  background-color: blueviolet;
+  display: flex;
+
+  /* justify-content: center; */
+
+}
+
+.menu__content>ul {
+  display: flex;
+}
+
+.menu__content>ul>li {
+  height: 20px;
+  flex: 1;
+  text-align: center;
+  background-color: brown;
+}
+
+
+.guide {
+  width: 100%;
+  background-color: aqua;
+}
+
+.guide__content {
+  height: 200px;
+  background-color: rgb(70, 114, 65);
+  display: flex;
+}
+
+.content__air {
+  height: 200px;
+  background-color: rgb(197, 223, 194);
+  display: flex;
+  background-image: url(./imges/travel2.jpg);
+}
+
+.content__tra {
+  height: 200px;
+  background-color: rgb(91, 233, 75);
+  display: flex;
+  background-image: url(./imges/train2.jpg);
+}
+
+
+.guide__content>div {
+  flex: 1;
+}
+
+.guide__content>.content__train {
+  background-color: hotpink;
+}
+
+.guide__content>.content__airplane {
+  background-color: indianred;
+}
+
+.guide__content>.content__childrenDad {
+  background-color: rgb(24, 110, 240);
+  background-image: url(./imges/dad_children.jpg);
+}
+
+#slider {
+  display: flex;
+  margin: 0 auto;
+  width: 100px;
+  max-width: 100%;
+}
+
+
+
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.menuimge {
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.study {
+  width: 475px;
+  height: 433px;
+  background-image: url(./imges/gooddad\ main2.jpg);
+  background-color: blue;
+}
+
+.play {
+  width: 475px;
+  height: 433px;
+  background-image: url(./imges/dadbaby.jpg);
+  background-color: blue;
+}
+
+.travel {
+  width: 475px;
+  height: 433px;
+  background-image: url(./imges/travel3.jpg);
+  background-color: blue;
+}
+
+
+.footer {
+  width: 100%;
+  background-color: rgb(190, 121, 17);
+}
+
+.footer__content {
+  height: 50px;
+  background-color: honeydew;
+}
+
+.footer__content ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer__content ul>li {
+  float: left;
+  width: 16.666%;
+  text-align: center;
+}
+
+
+
+.banner__content {
+  height: 200px;
+  background-color: gray;
+}
